@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>home</tittle>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .navbar {
+                overflow: hidden;
+                background-color: black;
+                position: fixed;
+                top: 0%;
+                width: 100%;
+                padding-left: 60%;
+                padding-top: 0.5px;
+                padding-bottom: 0.5px;
+
+
+            }
+            .navbar a{
+                float:left;
+                color:#f2f2f2;
+                text-align:center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .navbar a:hover{
+                background-color: #ddd;
+                color: black;
+            }
+            .navbar a.active{
+                background-color: rgb(241, 181, 181);
+                color:white;
+
+            }
+            </style>
+            </head>
+            <body>
+                <div class"navbar">
+                    <a href="#">home</a>
+                    <a href="#">About me</a>
+                    <a href="#">cv</a>
+                    <a href="#">contact</a>
+                </div>
+                <div class="address">
+                    <h1>rabiu ashiru</h1>
+                    <address>ab14 kagoro road, <br> tudun wada <br> kaduna. <br> Email: ashirurabiu606@gmail.com</address>
+                </div>
+                <div id="about_me">
+                    <div class="about_left">
+                        <img src="images/image2.jpg" alt="">
+                     </div>
+                <div class="about_right">
+                    <h3>about me</h3>
+                    <p>i am rabiu ashiru. i was born on the 30-may-1990</p>
+                        </div>           
+                    </div>
+            <!-- skills section-->
+            <div class="skills">
+                <h2>IT skills</h2>
+                <p>this section is a brief about mt IT skills</p>
+                <d1>
+                    <dt><b>Software Development skills</b></dt>
+                    <dd>-HTML, CSS,Javascript, PHP & Mysq1</dd>
+                    <dd>-Web Development Framework (w3.css,Bootstrap)</dd>
+                    <dd>-Content Management System(joomla,wix, Wordpress)</dd>
+                    <dt><b>Office Application and Graphic Design</b></dt>
+                    <dd>-Microsoft Office Word</dd>
+                    <dd>-Presentation Software (Powerpoint)</dd>
+                    <dd>-Spreadsheet Application (Excel and Access)</dd>
+                    <dd>-Grapics Design Application (Photoshop Coreldraw,paint)</dd>
+                    </d1>
+
+                  <!-- cv section-->
+                    <div class="cv">
+                        <h2>Working Experience</h2>
+                        <p>This section is a brief about my working experience.</p>
+                        <o1>
+                            <li>PAN Learning Center -IT Instructor</li>
+                            <li>LEG Sabon Tasha - Class Teacher</li>
+                        </o1>
+                        <h2>Qualification Obtain</h2>
+                        <p>A Brief About The Qualification i have achieved</p>
+                        <ol>
+                            <li>Quality Assurance Assessor - National Skills Qualification</li>
+                            <li>Assessor - City % Guilds of London</li>
+                            <li>Msc, Computer Science (view) - KASU</li>
+                            <li>B-Tech Mathematics % Computer Science - Fut Minna</li>
+                            </ol>
+                            
+                            <h2>hobbies</h2>
+
+                               <p>here are some of my hobbies</p>
+                            <ul>
+                               <li>football</li>
+                               <li>watching</li>
+                               <li>studying</li>
+                               <li>swimming</li>
+                               
+                        </ul>
+                        </div>
+
+                <!--contact section-->
+                <h2>contact me here</h2>
+                <form action="">
+                    <label for="firstname">fisrt name</label><br>
+                    <input type="text"><br><br>
+                    <label for="lastname">last name</label><br>
+                    <input type="text"><br><br>
+                    <label for="email">email address</label><br>
+                    <input type="email"><br><br>
+                    <label for="subject">subject</label><br>
+                    <input type="textarea"><br><br>
+                    <input type="submit" value="message me">
+
+            </form>
+            </body>
+    
+</html>
